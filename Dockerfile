@@ -1,10 +1,6 @@
 
 # Example Dockerfile that can run the code from this project.
-# docker system prune -af
-# docker image prune -af
-# docker build --pull -t dpex ./ 
-# docker run --rm -it -p 2082:2080 dpex                # port is host:container
-# umask 0
+
 
 FROM ubuntu:18.04
 
